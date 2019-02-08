@@ -1,10 +1,10 @@
 {
-  "name": "core-js",
+  "name": "cayenne-core-js",
   "version": "1.0.0",
   "description": "JS library for access Cayenne Core API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/myDevicesIoT/core-js"
+    "url": "https://github.com/myDevicesIoT/cayenne-core-js"
   },
   "scripts": {
     "test": "mocha --recursive test/ -t 5000"
