@@ -1,0 +1,30 @@
+{
+  "name": "core-js",
+  "version": "1.0.0",
+  "description": "JS library for access Cayenne Core API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myDevicesIoT/core-js"
+  },
+  "scripts": {
+    "test": "mocha --recursive test/ -t 5000"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "socket.io-client": "^2.2.0",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "mocha": "^5.2.0",
+    "prettier": "^1.16.4",
+    "sinon": "^7.2.3"
+  }
+}
