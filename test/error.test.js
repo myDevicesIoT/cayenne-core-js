@@ -1,5 +1,4 @@
 const { expect } = require('code');
-const sinon = require('sinon');
 
 const Core = require('../lib');
 const CoreError = require('./../lib/CoreError');
