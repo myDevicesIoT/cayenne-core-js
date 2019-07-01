@@ -7,7 +7,9 @@
     "url": "https://github.com/myDevicesIoT/cayenne-core-js"
   },
   "scripts": {
-    "test": "mocha --recursive test/ -t 5000"
+    "test": "mocha --recursive test/ -t 5000",
+    "lint": "./node_modules/.bin/eslint --ext .js lib/ test/ index.js",
+    "lint-fix": "./node_modules/.bin/eslint --fix --ext .js lib/ test/ index.js"
   },
   "dependencies": {
     "boom": "^7.3.0",
