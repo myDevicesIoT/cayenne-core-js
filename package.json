@@ -26,6 +26,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-mocha": "^5.2.1",
     "mocha": "^5.2.0",
+    "nock": "^12.0.2",
     "prettier": "^1.16.4",
     "sinon": "^7.2.3"
   }
