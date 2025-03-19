@@ -14,7 +14,7 @@
   "dependencies": {
     "boom": "^7.3.0",
     "cayennejs": "0.0.4",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "socket.io-client": "^2.2.0",
     "superagent": "^8.1.2"
   },
